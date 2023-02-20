@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'UrbaneLight';
+  src: url('../public/fonts/Urbane/Urbane-Light.ttf')format("truetype");
+}
+
+@font-face {
+  font-family: 'UrbaneMedium';
+  src: url('../public/fonts/Urbane/Urbane-Medium.ttf')format("truetype");
+}
+
+@font-face {
+  font-family: 'UrbaneBold';
+  src: url('../public/fonts/Urbane/Urbane-Bold.ttf')format("truetype");
+}
+
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  // background-color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0 0 12px;
+  // font-family: 'UrbaneMedium';
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-row {
+  display: flex;
+}
