@@ -23,6 +23,11 @@ export default function Carousel_01({ images, content, timer }) {
     slotItemStart: true,
     slotItemImgTransformStart: true,
   });
+
+  const [slotSettin2g1, setSlotSettin2g1] = useState({
+    slotItemStart: true,
+    slotItemImgTransformStart: true,
+  });
   const [slotSetting, setSlotSetting] = useState({
     slotItemStart: true,
     slotItemImgTransformStart: true,
